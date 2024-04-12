@@ -3,6 +3,10 @@
     justify-content: center;
     .container{
         width: 1024px;
+        .link{
+            text-decoration: none;
+            color: inherit;
+        }
 
 //Login/Register
 .auth{
@@ -59,7 +63,10 @@ p{
         display: flex;
         justify-content: space-between;
         .logo{}
-        .links{}
+        .links{
+            display: flex;
+            gap: 10px;
+        }
 
     }
 }
