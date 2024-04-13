@@ -20,7 +20,7 @@ const Navbar = () => {
                     <span>Akshat</span>
                     <span>Logout</span>
                     <span className='write'>
-                        <Link to="/Write">Write</Link>
+                        <Link className="link" to="/Write">Write</Link>
                     </span>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+
+$lightGreen:#b9e7e7;
 .app{
     display: flex;
     justify-content: center;
@@ -77,8 +79,26 @@ p{
 
             h6{
                 font-size: 16px;
+                font-weight: 300;   
+            }
+
+            span{
+                cursor: pointer;
+            }
+            .write{
+                background-color: $lightGreen;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 font-weight: 300;
-                
+                &:hover{
+                    background-color: white;
+                    color: teal;
+                    border: 1px solid teal;
+                }
             }
         }
 
