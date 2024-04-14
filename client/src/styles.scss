@@ -59,6 +59,7 @@ p{
 
 
 
+
 .navbar{
     .container{
         padding: 10px 0px;
@@ -115,9 +116,32 @@ footer{
     align-items: center;
     justify-content: space-between;
     font-size: 12px;
+
     img{
         height: 50px;
     }
 }
+
+.Home{
+    .posts{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        .post{
+            display: flex;
+    
+            .img{
+                flex:1;
+            }
+            .content{
+                flex: 2;
+            }
+        }
+    
+}
+}
+
+
     }
 }
